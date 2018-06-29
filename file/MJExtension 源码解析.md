@@ -145,7 +145,8 @@ MJExtension 基本上所有的iOS开发都用过，Json <---> Model。
 其中代码进行了相应的简化，其中有一些Property的缓存，类型的安全判断都暂时忽略，只进行思路的理解。
 
 ### 纸上谈来终觉浅
-写了一个Dome，大大简化了MJExtension，目的是为了浅尝Runtime的魅力。这里有一个Property Attribute，苹果文档比较详细参考：[文档](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtPropertyIntrospection.html)
+写了一个Dome，大大简化了MJExtension，目的是为了浅尝Runtime的魅力。基本思路如最上面的伪代码。其中很多安全判断，省略了些许。
+这里有一个Property Attribute，苹果文档比较详细参考：[文档](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtPropertyIntrospection.html)
 
-Demo 地址：[我是Demo]()
+Demo 地址：[我是Demo](https://github.com/DavidCap/iOS-note/tree/master/demo/MJExtensionSimpleDemo)
 
