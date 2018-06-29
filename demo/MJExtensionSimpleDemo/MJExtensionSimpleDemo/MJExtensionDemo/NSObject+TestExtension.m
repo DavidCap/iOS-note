@@ -20,17 +20,19 @@ static NSSet *foundationClasses_;
     unsigned int count;
     objc_property_t *propertys = class_copyPropertyList(clazz, &count);
     
+    //1. 遍历Class中的Property
     for (int i = 0; i < count; i++) {
         NSString *propertyName = @(property_getName(propertys[i]));
         NSString *propertyAttribute =@(property_getAttributes(propertys[i]));
         
         
-        // 1.取出属性值
+        // 2. 获取Value
         id value = [dict objectForKey:propertyName];
         if (!value || [value isKindOfClass:[NSNull class]]) {
             continue;
         }
         
+        // 3. 如果是其他类，递归调用
         Class propertyClazz = [self getClassFromAttrs:propertyAttribute];
         if (propertyClazz) {
             value = [propertyClazz test_JsonToModelWithDictionary:value];
