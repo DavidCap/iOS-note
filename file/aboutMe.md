@@ -14,5 +14,5 @@
 [下载链接](https://itunes.apple.com/cn/app/%E5%B0%A4%E7%BE%8E-%E4%B8%93%E4%B8%9A%E6%A8%A1%E7%89%B9%E6%91%84%E5%BD%B1%E5%B9%B3%E5%8F%B0/id1373048085?mt=8)
 
 ## 技术栈
-iOS：Objective-C，Swift（驾轻就熟）<br>
+iOS：Objective-C，Swift（驾轻就熟）<br>
 Web：小程序开发（熟悉）<br>
