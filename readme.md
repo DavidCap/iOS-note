@@ -12,3 +12,6 @@
 * YYWebImage
 * AFNetworking
 * WebViewJavascriptBridge
+
+### 学习
+[HTTPS 理解](https://github.com/DavidCap/iOS-note/blob/master/file/HTTPS%20%E7%90%86%E8%A7%A3.md)
