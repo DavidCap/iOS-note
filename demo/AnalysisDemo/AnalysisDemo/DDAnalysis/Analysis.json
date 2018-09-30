@@ -1,0 +1,33 @@
+{
+    "ViewController":{
+        "gotoTable":[
+            {
+                "eventID":"GO TO Tabel",
+            },
+        ],
+        "gotoCollection":[
+            {
+                "eventID":"GO TO Collection",
+            },
+        ],
+        "getsureAnalysis":[
+            {
+                "eventID":"Gesture Aanlysis",
+            },
+        ],
+    },
+    "TableViewController":{
+        "didSelectRowAtIndexPath":[
+            {
+                "eventID":"TableViewController DidSelect",
+            },
+        ],
+    },
+    "CollectionViewController":{
+        "didSelectItemAtIndexPath":[
+            {
+                "eventID":"CollectionViewController DidSelect",
+            },
+        ],
+    },
+}

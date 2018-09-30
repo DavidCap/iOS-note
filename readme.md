@@ -1,4 +1,4 @@
-# 《iOS 学习笔记》 (每周一更)🚀🚀🚀
+# 《iOS 学习笔记》 🚀🚀🚀
 
 ![](https://raw.githubusercontent.com/DavidCap/iOS-note/master/resource/logo.png)
 
